@@ -1,0 +1,23 @@
+plugins/gemini/scripts/lib/gemini.mjs
+  a15a698427c00ffa 117,119,130,132,160
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.22",
+  "base_commit_sha": "9f6bba784a72fbfe7cfba10b4e2a97f47999fe76",
+  "prompts": {
+    "a15a698427c00ffa": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6cc5454a-876a-48ba-832d-ed742d412d2e",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 5,
+      "total_deletions": 4,
+      "accepted_lines": 5,
+      "overriden_lines": 0
+    }
+  }
+}
