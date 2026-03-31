@@ -1,0 +1,29 @@
+plugins/gemini/.claude-plugin/plugin.json
+  b48c1068c6e07971 6
+plugins/.claude-plugin/marketplace.json
+  b48c1068c6e07971 4
+NOTICE
+  b48c1068c6e07971 2
+LICENSE
+  b48c1068c6e07971 178
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.22",
+  "base_commit_sha": "45ae1530911758ffade677885550a0193624bf76",
+  "prompts": {
+    "b48c1068c6e07971": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b0caf378-1753-4f23-9910-9bc196d6c820",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 4,
+      "total_deletions": 6,
+      "accepted_lines": 4,
+      "overriden_lines": 0
+    }
+  }
+}
