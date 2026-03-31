@@ -1,0 +1,49 @@
+docs/superpowers/specs/2026-03-31-gemini-plugin-design.md
+  c8661486ad1551f1 4,50-60,280-327
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.22",
+  "base_commit_sha": "ddc75340cde4f393c092167cbda88583c6c3ddc7",
+  "prompts": {
+    "3ef9f3839856880f": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019d42da-952c-7ed2-8198-c1b3494bdb79",
+        "model": "unknown"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    },
+    "6b62eaeef740063e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "57027f98-4d67-4f5f-b33d-dc069f849be9",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 375,
+      "overriden_lines": 0
+    },
+    "c8661486ad1551f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cd27e6d1-681b-4d96-81da-cd1cfcabd5e2",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 60,
+      "total_deletions": 1,
+      "accepted_lines": 60,
+      "overriden_lines": 0
+    }
+  }
+}
