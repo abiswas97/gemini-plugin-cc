@@ -1,0 +1,38 @@
+docs/gemini-prompting-skill.md
+  c8661486ad1551f1 1-591
+docs/superpowers/specs/2026-03-31-gemini-plugin-design.md
+  c8661486ad1551f1 1-313
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.22",
+  "base_commit_sha": "b1acf88023f2a3ef0db7a339cf3f2eaba438d777",
+  "prompts": {
+    "6b62eaeef740063e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "57027f98-4d67-4f5f-b33d-dc069f849be9",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 375,
+      "total_deletions": 0,
+      "accepted_lines": 375,
+      "overriden_lines": 0
+    },
+    "c8661486ad1551f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cd27e6d1-681b-4d96-81da-cd1cfcabd5e2",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 904,
+      "total_deletions": 0,
+      "accepted_lines": 904,
+      "overriden_lines": 0
+    }
+  }
+}
