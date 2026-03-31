@@ -1,0 +1,25 @@
+plugins/gemini/scripts/lib/gemini.mjs
+  9339bce5275c9731 172,183
+plugins/gemini/scripts/gemini-companion.mjs
+  9339bce5275c9731 497,507
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.22",
+  "base_commit_sha": "00229ef0f80839814e4060e4ed1e8c784a273e8f",
+  "prompts": {
+    "9339bce5275c9731": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ae2241b3-abde-4e71-abcd-16017ac1bcbb",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 4,
+      "total_deletions": 0,
+      "accepted_lines": 4,
+      "overriden_lines": 0
+    }
+  }
+}
