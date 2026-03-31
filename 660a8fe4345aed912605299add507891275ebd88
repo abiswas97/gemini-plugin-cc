@@ -1,0 +1,23 @@
+plugins/gemini/.claude-plugin/plugin.json
+  7a3f0e2fa6e99af5 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.22",
+  "base_commit_sha": "660a8fe4345aed912605299add507891275ebd88",
+  "prompts": {
+    "7a3f0e2fa6e99af5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "dcc38c1e-3a8e-407b-b20a-4c6f07d837ca",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 1,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    }
+  }
+}
