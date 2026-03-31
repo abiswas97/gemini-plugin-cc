@@ -1,0 +1,23 @@
+plugins/gemini/schemas/error-output.schema.json
+  9339bce5275c9731 1-24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.22",
+  "base_commit_sha": "c668dadc4356b08b3d4d9d11c68251b245abb57f",
+  "prompts": {
+    "9339bce5275c9731": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ae2241b3-abde-4e71-abcd-16017ac1bcbb",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 24,
+      "total_deletions": 0,
+      "accepted_lines": 24,
+      "overriden_lines": 0
+    }
+  }
+}
