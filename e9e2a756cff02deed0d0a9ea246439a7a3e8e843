@@ -1,0 +1,50 @@
+plugins/gemini/skills/gemini-prompting/references/gemini-prompt-recipes.md
+  c8661486ad1551f1 1-48
+plugins/gemini/skills/gemini-cli-runtime/SKILL.md
+  c8661486ad1551f1 1-45
+plugins/gemini/agents/gemini-rescue.md
+  c8661486ad1551f1 1-47
+plugins/gemini/prompts/stop-review-gate.md
+  c8661486ad1551f1 1-36
+plugins/gemini/prompts/adversarial-review.md
+  c8661486ad1551f1 1-83
+plugins/gemini/skills/gemini-result-handling/SKILL.md
+  c8661486ad1551f1 1-21
+plugins/gemini/skills/gemini-prompting/references/gemini-prompt-antipatterns.md
+  c8661486ad1551f1 1-29
+plugins/gemini/skills/gemini-prompting/SKILL.md
+  c8661486ad1551f1 1-591
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.22",
+  "base_commit_sha": "e9e2a756cff02deed0d0a9ea246439a7a3e8e843",
+  "prompts": {
+    "6b62eaeef740063e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "57027f98-4d67-4f5f-b33d-dc069f849be9",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 375,
+      "overriden_lines": 0
+    },
+    "c8661486ad1551f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cd27e6d1-681b-4d96-81da-cd1cfcabd5e2",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 900,
+      "total_deletions": 0,
+      "accepted_lines": 3813,
+      "overriden_lines": 0
+    }
+  }
+}
