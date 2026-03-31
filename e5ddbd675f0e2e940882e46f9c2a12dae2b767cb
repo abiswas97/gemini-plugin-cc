@@ -1,0 +1,52 @@
+plugins/gemini/commands/cancel.md
+  c8661486ad1551f1 1-13
+plugins/gemini/commands/adversarial-review.md
+  c8661486ad1551f1 1-33
+plugins/gemini/commands/task.md
+  c8661486ad1551f1 1-33
+tests/commands.test.mjs
+  c8661486ad1551f1 1-43
+plugins/gemini/commands/result.md
+  c8661486ad1551f1 1-13
+plugins/gemini/commands/rescue.md
+  c8661486ad1551f1 1-14
+plugins/gemini/commands/setup.md
+  c8661486ad1551f1 1-22
+plugins/gemini/commands/review.md
+  c8661486ad1551f1 1-40
+plugins/gemini/commands/status.md
+  c8661486ad1551f1 1-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.22",
+  "base_commit_sha": "e5ddbd675f0e2e940882e46f9c2a12dae2b767cb",
+  "prompts": {
+    "6b62eaeef740063e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "57027f98-4d67-4f5f-b33d-dc069f849be9",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 375,
+      "overriden_lines": 0
+    },
+    "c8661486ad1551f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cd27e6d1-681b-4d96-81da-cd1cfcabd5e2",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 224,
+      "total_deletions": 0,
+      "accepted_lines": 3137,
+      "overriden_lines": 0
+    }
+  }
+}
