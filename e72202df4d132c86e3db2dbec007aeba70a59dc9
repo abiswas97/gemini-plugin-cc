@@ -1,0 +1,74 @@
+plugins/.claude-plugin/marketplace.json
+  b48c1068c6e07971 1-13
+scripts/add-local-plugin.mjs
+  c8661486ad1551f1 1-19
+  b48c1068c6e07971 20
+plugins/gemini/commands/status.md
+  b48c1068c6e07971 2-4,8,10-13,15-17
+plugins/gemini/commands/rescue.md
+  b48c1068c6e07971 2-5,8-9,11-12,14,16-48
+plugins/gemini/commands/cancel.md
+  b48c1068c6e07971 2,4,8
+README.md
+  b48c1068c6e07971 27,29,32,35,38,41,47,49-50,52-53
+plugins/gemini/commands/adversarial-review.md
+  b48c1068c6e07971 2-3,8-10,17-19,21-35,37-45,48,50,52-54,57,60,65-66
+plugins/gemini/skills/gemini-prompting/SKILL.md
+  b48c1068c6e07971 3-4
+plugins/gemini/scripts/lib/gemini.mjs
+  b48c1068c6e07971 71-78
+plugins/gemini/hooks/hooks.json
+  b48c1068c6e07971 2-37
+tests/fake-gemini-fixture.mjs
+  b48c1068c6e07971 78,99,124-125,160,169,175
+plugins/gemini/commands/result.md
+  b48c1068c6e07971 2,4,8,10-15
+plugins/gemini/scripts/lib/acp-client.mjs
+  b48c1068c6e07971 113,115,130
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.22",
+  "base_commit_sha": "e72202df4d132c86e3db2dbec007aeba70a59dc9",
+  "prompts": {
+    "6b62eaeef740063e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "57027f98-4d67-4f5f-b33d-dc069f849be9",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 375,
+      "overriden_lines": 0
+    },
+    "b48c1068c6e07971": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b0caf378-1753-4f23-9910-9bc196d6c820",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 203,
+      "total_deletions": 98,
+      "accepted_lines": 195,
+      "overriden_lines": 0
+    },
+    "c8661486ad1551f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cd27e6d1-681b-4d96-81da-cd1cfcabd5e2",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 23,
+      "total_deletions": 0,
+      "accepted_lines": 2940,
+      "overriden_lines": 0
+    }
+  }
+}
