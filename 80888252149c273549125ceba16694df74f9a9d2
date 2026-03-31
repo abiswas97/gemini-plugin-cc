@@ -1,0 +1,23 @@
+NOTICE
+  b48c1068c6e07971 4-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.22",
+  "base_commit_sha": "80888252149c273549125ceba16694df74f9a9d2",
+  "prompts": {
+    "b48c1068c6e07971": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b0caf378-1753-4f23-9910-9bc196d6c820",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 11,
+      "total_deletions": 3,
+      "accepted_lines": 11,
+      "overriden_lines": 0
+    }
+  }
+}
