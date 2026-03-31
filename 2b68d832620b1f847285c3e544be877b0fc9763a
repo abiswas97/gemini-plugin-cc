@@ -1,0 +1,27 @@
+plugins/gemini/.claude-plugin/plugin.json
+  9339bce5275c9731 3
+.claude-plugin/marketplace.json
+  9339bce5275c9731 8,14
+package.json
+  9339bce5275c9731 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.22",
+  "base_commit_sha": "2b68d832620b1f847285c3e544be877b0fc9763a",
+  "prompts": {
+    "9339bce5275c9731": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ae2241b3-abde-4e71-abcd-16017ac1bcbb",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 4,
+      "total_deletions": 4,
+      "accepted_lines": 4,
+      "overriden_lines": 0
+    }
+  }
+}
