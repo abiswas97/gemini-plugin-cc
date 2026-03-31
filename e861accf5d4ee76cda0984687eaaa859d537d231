@@ -1,0 +1,23 @@
+README.md
+  9339bce5275c9731 68,94,96-97,99,111,125
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.22",
+  "base_commit_sha": "e861accf5d4ee76cda0984687eaaa859d537d231",
+  "prompts": {
+    "9339bce5275c9731": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "ae2241b3-abde-4e71-abcd-16017ac1bcbb",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 7,
+      "total_deletions": 6,
+      "accepted_lines": 7,
+      "overriden_lines": 0
+    }
+  }
+}
