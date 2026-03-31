@@ -1,0 +1,38 @@
+plugins/gemini/scripts/gemini-companion.mjs
+  c8661486ad1551f1 48-54,158-159,163,173-182
+plugins/gemini/scripts/lib/job-control.mjs
+  c8661486ad1551f1 230-234,241-242
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.22",
+  "base_commit_sha": "53a0610972a0900b83e71468f88c622d37e83c25",
+  "prompts": {
+    "6b62eaeef740063e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "57027f98-4d67-4f5f-b33d-dc069f849be9",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 375,
+      "overriden_lines": 0
+    },
+    "c8661486ad1551f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cd27e6d1-681b-4d96-81da-cd1cfcabd5e2",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 30,
+      "total_deletions": 71,
+      "accepted_lines": 2940,
+      "overriden_lines": 0
+    }
+  }
+}
