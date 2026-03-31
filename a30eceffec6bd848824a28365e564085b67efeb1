@@ -1,0 +1,42 @@
+tests/fake-gemini-fixture.mjs
+  c8661486ad1551f1 52-53,99,124-125,160,169,175
+tests/runtime.test.mjs
+  c8661486ad1551f1 1-79
+plugins/gemini/scripts/lib/acp-client.mjs
+  c8661486ad1551f1 153,156-159,164,166,168
+plugins/gemini/scripts/gemini-companion.mjs
+  c8661486ad1551f1 720-726
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.22",
+  "base_commit_sha": "a30eceffec6bd848824a28365e564085b67efeb1",
+  "prompts": {
+    "6b62eaeef740063e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "57027f98-4d67-4f5f-b33d-dc069f849be9",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 375,
+      "overriden_lines": 0
+    },
+    "c8661486ad1551f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "cd27e6d1-681b-4d96-81da-cd1cfcabd5e2",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Avi <avishek.biswas.1997@gmail.com>",
+      "messages": [],
+      "total_additions": 105,
+      "total_deletions": 15,
+      "accepted_lines": 3015,
+      "overriden_lines": 0
+    }
+  }
+}
