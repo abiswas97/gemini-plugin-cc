@@ -1,0 +1,25 @@
+plugins/gemini/commands/setup.md
+  1e56ffb5e3983f88 21-23
+README.md
+  1e56ffb5e3983f88 62-68
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.0",
+  "base_commit_sha": "0e10b6eb79ab2de47ab10116977e62d4ef08af8f",
+  "prompts": {
+    "1e56ffb5e3983f88": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0da66841-3144-4d51-a5e5-65b1875fe74e",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Avi",
+      "messages": [],
+      "total_additions": 10,
+      "total_deletions": 0,
+      "accepted_lines": 10,
+      "overriden_lines": 0
+    }
+  }
+}
