@@ -1,0 +1,47 @@
+tests/runtime.test.mjs
+  1e56ffb5e3983f88 9,21,41,58,86
+plugins/gemini/scripts/lib/acp-client.mjs
+  1e56ffb5e3983f88 173-201
+tests/fake-gemini-fixture.test.mjs
+  1e56ffb5e3983f88 9-12,16
+plugins/gemini/scripts/lib/acp-lifecycle.mjs
+  1e56ffb5e3983f88 6-18,58-59,70,83-107
+tests/fake-gemini-fixture.mjs
+  1e56ffb5e3983f88 6-19,28,92,113,145,149-150,153,181,188
+tests/acp-lifecycle.test.mjs
+  9a9c1854e0c05721 83
+  1e56ffb5e3983f88 4,11-15,20,35,45,54,61-82
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.0",
+  "base_commit_sha": "7c984c582951e3e82805fba5e54330c0987c34db",
+  "prompts": {
+    "1e56ffb5e3983f88": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0da66841-3144-4d51-a5e5-65b1875fe74e",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Avi",
+      "messages": [],
+      "total_additions": 136,
+      "total_deletions": 27,
+      "accepted_lines": 139,
+      "overriden_lines": 0
+    },
+    "9a9c1854e0c05721": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "feb64687-70ce-4813-9b4c-c6036cbc49bd",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": null,
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    }
+  }
+}
