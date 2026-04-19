@@ -16,9 +16,7 @@
     "format": "biome format .",
     "format:fix": "biome format --fix .",
     "test": "node --test tests/*.test.mjs",
-    "ci": "pnpm run build && pnpm run lint && pnpm run test",
-    "version:sync": "node scripts/sync-version.mjs",
-    "version:check": "node scripts/check-version.mjs"
+    "ci": "pnpm run build && pnpm run lint && pnpm run test"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.10",

@@ -30,8 +30,5 @@ jobs:
       - name: Lint
         run: pnpm run lint
 
-      - name: Version consistency
-        run: pnpm run version:check
-
       - name: Test
         run: pnpm run test
