@@ -1,0 +1,23 @@
+plugins/gemini/scripts/lib/gemini.mjs
+  691baa2f61c7c031 101
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.0",
+  "base_commit_sha": "c8c15fab3794a5b2d675252105e1ad5f5dc23dbc",
+  "prompts": {
+    "691baa2f61c7c031": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "bda37791-48e4-443d-ad5b-8831bd6a3bfc",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Avi",
+      "messages": [],
+      "total_additions": 133,
+      "total_deletions": 9,
+      "accepted_lines": 133,
+      "overriden_lines": 0
+    }
+  }
+}
