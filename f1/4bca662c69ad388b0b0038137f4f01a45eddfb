@@ -1,0 +1,23 @@
+plugins/gemini/scripts/gemini-companion.mjs
+  c37d47af53a736f0 46,575-578
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.3.0",
+  "base_commit_sha": "f14bca662c69ad388b0b0038137f4f01a45eddfb",
+  "prompts": {
+    "c37d47af53a736f0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "27ec7f21-b5fc-4e62-b850-d81c6b68e669",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Avi",
+      "messages": [],
+      "total_additions": 5,
+      "total_deletions": 2,
+      "accepted_lines": 5,
+      "overriden_lines": 0
+    }
+  }
+}
