@@ -1,5 +1,17 @@
 # Gemini plugin for Claude Code
 
+> [!IMPORTANT]
+> **`gemini-cli` deprecation notice — June 18, 2026 cutoff**
+>
+> Google [announced at I/O 2026](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/) (May 19) that `gemini-cli` is being replaced by **Antigravity CLI (`agy`)**. Free-tier and AI Pro/Ultra users will stop receiving requests on **June 18, 2026**. After that date, this plugin will silently fail for those user tiers. Gemini Code Assist for Enterprise and Vertex AI authenticated users are not affected.
+>
+> **Migration path:** [`antigravity-plugin-cc`](https://github.com/MarcosNahuel/antigravity-plugin-cc) is a Claude Code plugin that wraps `agy` instead of `gemini-cli`, with a similar slash-command shape plus four extras (`/antigravity:record` browser walkthrough recording to `.webm` + MP4, `/antigravity:scrape` structured URL extraction, `/antigravity:doc-to-md` PDF/docx/image to Markdown, `/antigravity:design-review` UX audit).
+>
+> ```text
+> /plugin marketplace add MarcosNahuel/antigravity-plugin-cc
+> /plugin install antigravity@marcosnahuel-antigravity
+> ```
+
 Use Gemini from inside Claude Code for code reviews or to delegate tasks to Gemini.
 
 Based on [`openai/codex-plugin-cc`](https://github.com/openai/codex-plugin-cc), adapted for the Gemini CLI. Also adds `/gemini:task` for direct task delegation.
