@@ -216,6 +216,30 @@ function buildReviewPrompt(reviewTarget, systemPrompt, focusText) {
 }
 
 /**
+ * Best-effort recovery of a JSON object from model output that contains leading
+ * narration prose and/or markdown fences. Returns the candidate JSON string, or
+ * null if none found. Prefers the LAST fenced ```json block (the review envelope
+ * is typically the final block); falls back to the first-{ .. last-} run.
+ * @param {string} raw
+ * @returns {string|null}
+ */
+function extractJsonCandidate(raw) {
+  if (typeof raw !== "string") return null;
+  const fence = /```(?:json)?\s*([\s\S]*?)```/gi;
+  let m;
+  let lastFenced = null;
+  while ((m = fence.exec(raw)) !== null) {
+    const body = m[1].trim();
+    if (body.startsWith("{")) lastFenced = body;
+  }
+  if (lastFenced) return lastFenced;
+  const start = raw.indexOf("{");
+  const end = raw.lastIndexOf("}");
+  if (start !== -1 && end > start) return raw.slice(start, end + 1);
+  return null;
+}
+
+/**
  * Parse and validate Gemini review output. Fails closed on any validation failure.
  * @param {string} raw
  * @returns {object} Normalized review result
@@ -231,12 +255,27 @@ export function parseReviewOutput(raw) {
   try {
     parsed = JSON.parse(stripped);
   } catch (err) {
-    const e = new Error(`Review output is not valid JSON: ${err.message}`);
-    // @ts-expect-error
-    e.code = "REVIEW_PARSE_ERROR";
-    // @ts-expect-error
-    e.raw = raw;
-    throw e;
+    // Fallback: the model may stream narration prose BEFORE the JSON envelope
+    // (e.g. "I've checked ...\n```json{...}```"). The leading-fence strip above
+    // only fires when the fence is at offset 0, so prose-first output reaches
+    // JSON.parse and throws — losing an otherwise valid review. Recover it.
+    // Purely additive: clean output already parsed above and never reaches here.
+    const salvaged = extractJsonCandidate(raw);
+    if (salvaged !== null) {
+      try {
+        parsed = JSON.parse(salvaged);
+      } catch {
+        parsed = undefined;
+      }
+    }
+    if (parsed === undefined) {
+      const e = new Error(`Review output is not valid JSON: ${err.message}`);
+      // @ts-expect-error
+      e.code = "REVIEW_PARSE_ERROR";
+      // @ts-expect-error
+      e.raw = raw;
+      throw e;
+    }
   }
 
   const schema = JSON.parse(fs.readFileSync(REVIEW_SCHEMA_PATH, "utf8"));
